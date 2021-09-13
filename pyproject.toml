@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry-test"
+version = "0.1.0"
+description = ""
+authors = ["William Benton <self@willbenton.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+folium = "0.12.1"
+Flask = "2.0.1"
+flask_wtf = "*"
+requests = "2.26.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
