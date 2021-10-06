@@ -14,5 +14,11 @@
     <div class="container">
         {{ themap | safe }}
     </div>
+    <div class="container">
+      <dl>
+        <dt>Distance</dt><dd>{{trip_distance | round | int }}m</dd>
+        <dt>Duration</dt><dd>{{trip_duration | round | int }}s</dd>
+      </dl>
+    </div>
   </body>
 </html>
