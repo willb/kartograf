@@ -5,7 +5,7 @@ description = ""
 authors = ["William Benton <self@willbenton.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">= 3.8"
 folium = "0.12.1"
 Flask = "2.0.1"
 flask_wtf = "*"

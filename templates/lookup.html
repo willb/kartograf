@@ -15,7 +15,8 @@
         <h1>Address lookup</h1>
         <form method="POST" action="/lookup">
             {{ form.csrf_token }}
-            {{ form.address.label }} {{ form.address(size=20) }}
+            {{ form.start_address.label }} {{ form.start_address(size=20) }}
+            {{ form.end_address.label }} {{ form.end_address(size=20) }}
             <input type="submit" value="Go">
         </form>
     </div>
